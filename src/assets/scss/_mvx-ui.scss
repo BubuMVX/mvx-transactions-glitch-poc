@@ -1,0 +1,40 @@
+body {
+  .dapp-core-component__main__btn {
+    @extend .btn;
+  }
+
+  .dapp-core-component__main__text-center .dapp-core-component__main__btn {
+    margin: 0 auto !important;
+  }
+
+  .dapp-core-component__main__btn:not(.dapp-core-component__dappModalStyles__dappModalCloseButton) {
+    @extend .btn-primary;
+    @extend .btn-lg;
+    @extend .d-block;
+    @extend .m-0;
+
+    &.d-none {
+      @extend .d-none;
+    }
+  }
+
+  .dapp-core-component__main__btn-primary:focus {
+    background-color: $primary;
+  }
+
+  .dapp-core-component__ledgerConnectStyles__login-connect-container-icon {
+    background-color: $white;
+  }
+
+  [class$="modal-dialog-content"] {
+    @extend .text-bg-dark;
+  }
+
+  [class$="modal-close-button"] {
+    color: $white;
+  }
+
+  .transactions-toast-list {
+    color: #000;
+  }
+}

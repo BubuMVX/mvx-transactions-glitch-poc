@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'mvx-icons';
+  src: url('../fonts/mvx-icons.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mvx-icon-"]:before, [class*=" mvx-icon-"]:before {
+  font-family: "mvx-icons", serif;
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .3em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .3em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+}
+
+.mvx-icon-web-wallet:before {
+  content: '\e800';
+}
+
+.mvx-icon-ledger:before {
+  content: '\e801';
+}
+
+.mvx-icon-xportal:before {
+  content: '\e802';
+}
+
+.mvx-icon-defi-wallet:before {
+  content: '\e803';
+}

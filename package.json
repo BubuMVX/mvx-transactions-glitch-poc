@@ -1,0 +1,53 @@
+{
+  "name": "mvx-transactions-glitch-poc",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Bubu",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev-expose": "vite --host",
+    "build": "tsc && vite build",
+    "staging": "tsc && vite build --mode staging",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@multiversx/sdk-dapp": "^2.40.11",
+    "@multiversx/sdk-network-providers": "^2.9.0",
+    "axios": "^1.7.7",
+    "bignumber.js": "^9.1.2",
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "sass": "1.77.6",
+    "sharp": "^0.33.5",
+    "svgo": "^3.3.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-image-optimizer": "^1.1.8",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  },
+  "overrides": {
+    "vite-plugin-node-polyfills": {
+      "vite": "^5.0.1"
+    }
+  }
+}

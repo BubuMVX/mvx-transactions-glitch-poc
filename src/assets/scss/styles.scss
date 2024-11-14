@@ -1,0 +1,13 @@
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "mvx-icons";
+@import "mvx-ui";
+
+::selection {
+  color: $white;
+  background: $black;
+}
+
+.min-vh-100 {
+  min-height: 100svh !important;
+}
